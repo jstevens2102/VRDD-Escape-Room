@@ -12,3 +12,4 @@ Read below for complete changelog history.
 
 ### 08/08/2021
 - Created repository.
+- Fixed input for teleporter ray.
