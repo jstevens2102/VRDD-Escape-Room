@@ -12,7 +12,7 @@ Read below for complete changelog history.
 
 ### 09/08/2021
 - Converted project to Universal Render Pipeline.
-  NOTE: Currently texture/colour of teleport laser is broken, looking at fixing this soon.
+- Upgraded teleport ray visuals using URP shader graph materials.
 
 ### 08/08/2021
 - Created repository.
