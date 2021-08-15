@@ -10,6 +10,15 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 15/08/2021
+- Removed unused controller models.
+- Removed unused HandPresence script.
+- Created a new script called XRInputListener that can be used to check for various inputs using the Action-based input system.
+- Created a new InputActionAsset to avoid overwriting the default one when adding/editing controls.
+- Added two new InputActions: 'Trigger' and 'Grip' to get the level of depression of the trigger/grip buttons.
+- Teleport rays are now hidden by default and are re-activated when the XRInputListener script detects the 'Teleport Mode Activate' input from the controller and deactivated after the teleport finishes.
+- Created a new HandPresenceInputListener script that animates the Oculus hand models based on the 'Trigger' and 'Grip' input values.
+
 ### 09/08/2021
 - Converted project to Universal Render Pipeline.
 - Upgraded teleport ray visuals using URP shader graph materials.
