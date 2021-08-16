@@ -10,6 +10,9 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 16/08/2021
+- Added offset grab.
+
 ### 15/08/2021
 - Removed unused controller models.
 - Removed unused HandPresence script.

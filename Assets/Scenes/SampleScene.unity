@@ -721,7 +721,7 @@ MonoBehaviour:
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
-    m_Reference: {fileID: -8270564778575511633, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActivateAction:
     m_UseReference: 0
     m_Action:
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 128
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -2729,7 +2729,7 @@ MonoBehaviour:
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
-    m_Reference: {fileID: -4084014799535200556, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 1263111715868034790, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ActivateAction:
     m_UseReference: 0
     m_Action:
@@ -3279,6 +3279,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1274500015, guid: 359b1ee3e5f3d6342893d8cc202d2ef8, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 2034662968}
     - target: {fileID: 7318502577967963363, guid: 359b1ee3e5f3d6342893d8cc202d2ef8, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3323,10 +3327,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7318502577967963384, guid: 359b1ee3e5f3d6342893d8cc202d2ef8, type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 2034662968}
     - target: {fileID: 7318502577967963385, guid: 359b1ee3e5f3d6342893d8cc202d2ef8, type: 3}
       propertyPath: m_Name
       value: Grabbable Cube
