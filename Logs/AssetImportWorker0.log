@@ -15,11 +15,11 @@ D:/a1801268/VRDD-Escape-Room
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64438
+62412
 Successfully changed project path to: D:/a1801268/VRDD-Escape-Room
 D:/a1801268/VRDD-Escape-Room
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.28 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 65.98 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 1.05 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -36,39 +36,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003191 seconds.
+Registered in 0.003224 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 52.09 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 53.08 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.230 seconds
+- Completed reload, in  2.251 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2230ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (2251ms)
+		BeginReloadAssembly (58ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (451ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			SetupTypeCache (144ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (167ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (76ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (73ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -76,12 +76,12 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008554 seconds.
+Registered in 0.008928 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 53.17 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 51.47 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -102,46 +102,46 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.404 seconds
+- Completed reload, in  1.425 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1405ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (1426ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1204ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (1227ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
 			SetupLoadedEditorAssemblies (641ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (471ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (473ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.4 MB.
-System memory in use after: 149.6 MB.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.7 MB.
+System memory in use after: 149.9 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3812.
-Total: 2.479400 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.135500 ms MarkObjects: 2.013200 ms  DeleteObjects: 0.067700 ms)
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3815.
+Total: 2.544400 ms (FindLiveObjects: 0.318000 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.005500 ms  DeleteObjects: 0.068300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -155,28 +155,388 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/XR/XRI Custom Input Actions.inputactions
-  artifactKey: Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/XRI Custom Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba7d0f8f15c506dbab0c5e8a667796b') in 0.049524 seconds 
-  Import took 0.054597 seconds .
+  path: Assets/Wine bottle.fbx
+  artifactKey: Guid(35e767a520c97a94dabeade2629b435c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wine bottle.fbx using Guid(35e767a520c97a94dabeade2629b435c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d10dce8d497a8e3fbf1c9055b2a41e') in 0.303908 seconds 
+  Import took 0.308783 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.287504 seconds.
-  path: Assets/XR/Scripts
-  artifactKey: Guid(94d663b96e45b3d4180e49045ba67893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Scripts using Guid(94d663b96e45b3d4180e49045ba67893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa0c27518611003afd2a3927c57a55b') in 0.007236 seconds 
-  Import took 0.012511 seconds .
+  Time since last request: 14.820931 seconds.
+  path: Assets/Wine bottle.fbx
+  artifactKey: Guid(35e767a520c97a94dabeade2629b435c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wine bottle.fbx using Guid(35e767a520c97a94dabeade2629b435c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd875c90874a13cddcbc086c40bee1792') in 0.035669 seconds 
+  Import took 0.051144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 452.518188 seconds.
+  path: Assets/basement objects
+  artifactKey: Guid(7c0ba725873e462489d9ab90fe46baf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects using Guid(7c0ba725873e462489d9ab90fe46baf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff2eb43fb15150fd1d9255cef4a0f80') in 0.006891 seconds 
+  Import took 0.013408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/basement objects
+  artifactKey: Guid(7c0ba725873e462489d9ab90fe46baf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects using Guid(7c0ba725873e462489d9ab90fe46baf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff2eb43fb15150fd1d9255cef4a0f80') in 0.002018 seconds 
+  Import took 0.007708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.552154 seconds.
+  path: Assets/basement objects/Wine Barrel assets
+  artifactKey: Guid(a55415a64b248dc4c858d04d354d9a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets using Guid(a55415a64b248dc4c858d04d354d9a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e658a97d70cd77a15079b4014d3d476') in 0.005738 seconds 
+  Import took 0.013292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066463 seconds.
+  path: Assets/basement objects/Wine Barrel assets/barrel metal.mat
+  artifactKey: Guid(7d20833b9e684104a89ec25ad221bd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/barrel metal.mat using Guid(7d20833b9e684104a89ec25ad221bd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da232f8f1db336638f8914c2e6495854') in 0.356309 seconds 
+  Import took 0.361547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/basement objects/Wine Barrel assets/Wine Barrel_Wine barrel.002_AlbedoTransparency.jpg
+  artifactKey: Guid(dbf9325c41a6d324880f83161095b6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/Wine Barrel_Wine barrel.002_AlbedoTransparency.jpg using Guid(dbf9325c41a6d324880f83161095b6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5511423a42b5b88d0343c72c1ee060c') in 0.043965 seconds 
+  Import took 0.056729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/basement objects/Wine Barrel assets/Wine Barrel_Wine barrel.002_Normal.jpg
+  artifactKey: Guid(97a86a24bbac34f45adfefd831f2d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/Wine Barrel_Wine barrel.002_Normal.jpg using Guid(97a86a24bbac34f45adfefd831f2d971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a70f9a6ae1f3cac6e36b393e79d690') in 0.036331 seconds 
+  Import took 0.041316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/basement objects/Wine Barrel assets/Wine Barrel_Barrel metal002_MetallicSmoothness.jpg
+  artifactKey: Guid(f807c620c2ebd274eb2cca6ec82ff593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/Wine Barrel_Barrel metal002_MetallicSmoothness.jpg using Guid(f807c620c2ebd274eb2cca6ec82ff593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d3b31b7b560aae6b72ef9a78081f07') in 0.020038 seconds 
+  Import took 0.025759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/basement objects/Wine Barrel assets/Wine Barrel_Wine barrel.002_MetallicSmoothness.jpg
+  artifactKey: Guid(1972f85bde25e7e4da253ba7e8c33bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/Wine Barrel_Wine barrel.002_MetallicSmoothness.jpg using Guid(1972f85bde25e7e4da253ba7e8c33bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3fb19057f6ef66d33755d25660d9cb') in 0.036617 seconds 
+  Import took 0.041504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/basement objects/Wine Barrel assets/Wine Barrel_Barrel metal002_AlbedoTransparency.jpg
+  artifactKey: Guid(86ddc80f09c70354f80a76715b4e12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/Wine Barrel_Barrel metal002_AlbedoTransparency.jpg using Guid(86ddc80f09c70354f80a76715b4e12d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f4fb3af8444d43302f95b1a6d7f561') in 0.020509 seconds 
+  Import took 0.026446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/basement objects/Wine Barrel assets/Wine Barrel.fbx
+  artifactKey: Guid(6669c45ae4a23a94aa0e8aee4094fa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/Wine Barrel.fbx using Guid(6669c45ae4a23a94aa0e8aee4094fa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fa3950ec38a03734d5f725d21e6504') in 0.080491 seconds 
+  Import took 0.085417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/basement objects/Wine Barrel assets/barrel.mat
+  artifactKey: Guid(7d68140db0bdf0648aff773afbdd6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/barrel.mat using Guid(7d68140db0bdf0648aff773afbdd6a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13a1c7c21bd94dbf360b1a2cd4a2166') in 0.016254 seconds 
+  Import took 0.021667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/basement objects/Wine Barrel assets/Wine Barrel_Barrel metal002_Normal.jpg
+  artifactKey: Guid(b1fa1d52ef6cd4241aa2329e2fd73f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/Wine Barrel_Barrel metal002_Normal.jpg using Guid(b1fa1d52ef6cd4241aa2329e2fd73f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e69ac607b48f5cfe2b8c8f50eb551a6') in 0.012480 seconds 
+  Import took 0.018243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.531695 seconds.
+  path: Assets/basement objects/Wine bottle assets
+  artifactKey: Guid(332fca1d84139a64c9917477d4641cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets using Guid(332fca1d84139a64c9917477d4641cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c1bc717fe0cdb381412cb88cee7171') in 0.004990 seconds 
+  Import took 0.010012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000864 seconds.
+  path: Assets/basement objects/Wine bottle assets
+  artifactKey: Guid(332fca1d84139a64c9917477d4641cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets using Guid(332fca1d84139a64c9917477d4641cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c1bc717fe0cdb381412cb88cee7171') in 0.001926 seconds 
+  Import took 0.007137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053822 seconds.
+  path: Assets/basement objects/Wine bottle assets/bottle.mat
+  artifactKey: Guid(8a38d65f2fff26f40b9533ec1e536289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/bottle.mat using Guid(8a38d65f2fff26f40b9533ec1e536289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa109876e6b0f8376c318ee08277a56') in 0.238387 seconds 
+  Import took 0.243347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/basement objects/Wine bottle assets/Wine bottle.fbx
+  artifactKey: Guid(8778465a4838f5b4db51fddc7faaf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/Wine bottle.fbx using Guid(8778465a4838f5b4db51fddc7faaf371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b43f0e02fca45b9d872e503d6ae3a0') in 0.016586 seconds 
+  Import took 0.021639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/basement objects/Wine bottle assets/Wine bottle.prefab
+  artifactKey: Guid(12707af41493ef341af91d4f87dbbcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/Wine bottle.prefab using Guid(12707af41493ef341af91d4f87dbbcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52f54966815c7e6c3c651ebd2e2e559') in 0.025723 seconds 
+  Import took 0.031503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/basement objects/Wine bottle assets/Wine bottle_Wine bottle_AlbedoTransparency.jpg
+  artifactKey: Guid(d8e501ee44a9ae548889145de3f26c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/Wine bottle_Wine bottle_AlbedoTransparency.jpg using Guid(d8e501ee44a9ae548889145de3f26c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9ca400cf4d7785f7e988eafb568c99') in 0.011504 seconds 
+  Import took 0.017245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/basement objects/Wine bottle assets/Wine bottle_Wine bottle_SpecularSmoothness.jpg
+  artifactKey: Guid(bec8edf7194924c44a728922527c6e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/Wine bottle_Wine bottle_SpecularSmoothness.jpg using Guid(bec8edf7194924c44a728922527c6e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eb37f53bf9060520a8032235c08fe8') in 0.011953 seconds 
+  Import took 0.034330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/basement objects/Wine bottle assets/Wine bottle_Wine bottle_Normal.jpg
+  artifactKey: Guid(81d6d97d94d164645b40f4e4190ec067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/Wine bottle_Wine bottle_Normal.jpg using Guid(81d6d97d94d164645b40f4e4190ec067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c126c35aeaa607729b16df073d3c27d') in 0.013892 seconds 
+  Import took 0.018907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004285 seconds.
+  path: Assets/basement objects/Wine bottle assets/Wine bottle_Wine bottle_Normal.jpg
+  artifactKey: Guid(81d6d97d94d164645b40f4e4190ec067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/Wine bottle_Wine bottle_Normal.jpg using Guid(81d6d97d94d164645b40f4e4190ec067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c126c35aeaa607729b16df073d3c27d') in 0.024662 seconds 
+  Import took 0.030262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.987609 seconds.
+  path: Assets/basement objects/Wine bottle assets/Materials
+  artifactKey: Guid(b51befa2832a41043808cc0868deaf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/Materials using Guid(b51befa2832a41043808cc0868deaf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db6d288128bcbfd29b83a4f7eb65a5c') in 0.005806 seconds 
+  Import took 0.011178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060705 seconds.
+  path: Assets/basement objects/Wine bottle assets/Materials/Wine bottle.mat
+  artifactKey: Guid(e94c2acd3cf3b4c4999ee497b5b62828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine bottle assets/Materials/Wine bottle.mat using Guid(e94c2acd3cf3b4c4999ee497b5b62828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f360680724b0878b48adab26cd9521a') in 0.010417 seconds 
+  Import took 0.034388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.678219 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Models/l_hand_skeletal_lowres.fbx
+  artifactKey: Guid(ca20b3907ff1c794cb89c1ad2cce8282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Models/l_hand_skeletal_lowres.fbx using Guid(ca20b3907ff1c794cb89c1ad2cce8282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a08dd94abb0492add902cecba1bf1a') in 0.201693 seconds 
+  Import took 0.210221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Models/r_hand_skeletal_lowres.fbx
+  artifactKey: Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Models/r_hand_skeletal_lowres.fbx using Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9023b8bcc9e297ef8031c8cfd500e7a') in 0.039844 seconds 
+  Import took 0.044792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Animations/r_hand_default_anim.fbx
+  artifactKey: Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Animations/r_hand_default_anim.fbx using Guid(b6c38558987444240b3b3950e4450b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa9252c12a19a3dbdd4d632ce01c14c') in 0.024735 seconds 
+  Import took 0.029632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Models/r_hand_skeletal_lowres.fbx
+  artifactKey: Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Models/r_hand_skeletal_lowres.fbx using Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9023b8bcc9e297ef8031c8cfd500e7a') in 0.025676 seconds 
+  Import took 0.030705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Materials/Hands_solid.mat
+  artifactKey: Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Materials/Hands_solid.mat using Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590bf908db01d11fd49f113ccb7f28d5') in 0.011444 seconds 
+  Import took 0.017243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Prefabs/Right Hand Model.prefab
+  artifactKey: Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Prefabs/Right Hand Model.prefab using Guid(1fd3a7c43c8190f4d8c167ebde694364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee13d569019dd2ef306ef1b9dda7b57') in 0.011968 seconds 
+  Import took 0.017303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions
+  artifactKey: Guid(32492c5e595481f4188ed7aeb2d0ab66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/Default Input Actions/XRI Default Input Actions.inputactions using Guid(32492c5e595481f4188ed7aeb2d0ab66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04cf4759916d2763b05d6887cfc2980') in 0.019071 seconds 
+  Import took 0.110133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/XR Device Simulator/XR Device Simulator Controls.inputactions
+  artifactKey: Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/1.0.0-pre.4/XR Device Simulator/XR Device Simulator Controls.inputactions using Guid(da2b439d1a2de5c46a4f428f8cf4fe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e7abef9281a8210d9c9de9dbdce375') in 0.009956 seconds 
+  Import took 0.014687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Animations/l_hand_fist_anim.fbx
+  artifactKey: Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Animations/l_hand_fist_anim.fbx using Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40577987b7db1ff741a23dd1781d00d1') in 0.058163 seconds 
+  Import took 0.063181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Animations/r_hand_pinch_anim.fbx
+  artifactKey: Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Animations/r_hand_pinch_anim.fbx using Guid(165871bb4fa915847973b6955c7a670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc83708861146792175c5d5c3843be2') in 0.012177 seconds 
+  Import took 0.016974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Prefabs/Left Hand Model.prefab
+  artifactKey: Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Prefabs/Left Hand Model.prefab using Guid(65847589f926b734d9eaed6e25f0046b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0f8c52ecc7b38b74d34bb6a679303a') in 0.013183 seconds 
+  Import took 0.018692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/XR/Settings/Open XR Package Settings.asset
+  artifactKey: Guid(e6eb85ac8c171664ab9880f2ee0f5a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Open XR Package Settings.asset using Guid(e6eb85ac8c171664ab9880f2ee0f5a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0d6d459706218cfdd7736b3055fa81') in 0.010839 seconds 
+  Import took 0.015866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Animations/l_hand_default_anim.fbx
+  artifactKey: Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Animations/l_hand_default_anim.fbx using Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965a77f75f7a49e5cb66aa125c25c1f8') in 0.010818 seconds 
+  Import took 0.016237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Animations/r_hand_fist_anim.fbx
+  artifactKey: Guid(005ab0ae8aa7f74438a5fa50f7cd50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Animations/r_hand_fist_anim.fbx using Guid(005ab0ae8aa7f74438a5fa50f7cd50e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dc388842dab370c94aa7ac8f08b7c0') in 0.010470 seconds 
+  Import took 0.015542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/XR/Hand Presence/Oculus Hands/Animations/l_hand_pinch_anim.fbx
+  artifactKey: Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Hand Presence/Oculus Hands/Animations/l_hand_pinch_anim.fbx using Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a484d8b4a90d9562a4cc17d02c7544dc') in 0.062529 seconds 
+  Import took 0.067393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.868149 seconds.
+  path: Assets/basement objects/Wine Barrel assets/Wine Barrel.prefab
+  artifactKey: Guid(20596954fd8e96a4f893acb91f697179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/basement objects/Wine Barrel assets/Wine Barrel.prefab using Guid(20596954fd8e96a4f893acb91f697179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b032564b9ab4fa0ffd89639823d6c3d6') in 0.028473 seconds 
+  Import took 0.034437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.543913 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3792d5add1e137c31d047275f86d5b') in 0.009096 seconds 
+  Import took 0.016165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003731 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3792d5add1e137c31d047275f86d5b') in 0.002541 seconds 
+  Import took 0.007599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321272 seconds.
+  path: Assets/XR/Settings/Mock HMD Build Settings.asset
+  artifactKey: Guid(9ec81ed3f5d6aed4fa11563028054a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Mock HMD Build Settings.asset using Guid(9ec81ed3f5d6aed4fa11563028054a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f754f83b11eeda022599946515c597c0') in 0.005295 seconds 
+  Import took 0.010228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(2ac3aaf7f38590a498d1da9489ff9a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(2ac3aaf7f38590a498d1da9489ff9a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3844e6feae915d15cfcbfa9cdae4f4c2') in 0.006131 seconds 
+  Import took 0.011899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(be8f7ad0e38ab4f4894a95a2241af6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(be8f7ad0e38ab4f4894a95a2241af6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3875a987759a636353d54c383973a3') in 0.006657 seconds 
+  Import took 0.011982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91a7d3d573af00c8b51fab78b257b8e') in 0.049620 seconds 
+  Import took 0.064590 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008837 seconds.
+Registered in 0.009411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\a1801268\VRDD-Escape-Room\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\a1801268\VRDD-Escape-Room\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -193,197 +553,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
+- Completed reload, in  1.473 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1304ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1473ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1111ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1257ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
+			SetupTypeCache (348ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (560ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (593ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (438ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 3223 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.7 MB.
-System memory in use after: 166.0 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3816.
-Total: 2.402900 ms (FindLiveObjects: 0.233700 ms CreateObjectMapping: 0.125100 ms MarkObjects: 2.024700 ms  DeleteObjects: 0.018400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 18.902563 seconds.
-  path: Assets/XR/Scripts/XROffsetGrabInteractable.cs
-  artifactKey: Guid(30c3874b1487f8c44925ec963e996590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Scripts/XROffsetGrabInteractable.cs using Guid(30c3874b1487f8c44925ec963e996590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8369c545c1a2ed4075aa3e750cf205') in 0.019575 seconds 
-  Import took 0.039500 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009016 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\a1801268\VRDD-Escape-Room\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\a1801268\VRDD-Escape-Room\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <44c3723143904fb88deebc993c7bb491>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.310 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1311ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1138ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (555ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (433ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 3223 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.8 MB.
-System memory in use after: 166.0 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3819.
-Total: 3.150000 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.139600 ms MarkObjects: 2.696600 ms  DeleteObjects: 0.022800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009637 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\a1801268\VRDD-Escape-Room\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\a1801268\VRDD-Escape-Room\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <44c3723143904fb88deebc993c7bb491>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.343 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1343ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1144ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (558ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (433ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (450ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3223 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.8 MB.
-System memory in use after: 166.1 MB.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.7 MB.
+System memory in use after: 185.9 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3822.
-Total: 2.411800 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.120300 ms MarkObjects: 2.014500 ms  DeleteObjects: 0.018900 ms)
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3903.
+Total: 2.515100 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.132400 ms MarkObjects: 2.047800 ms  DeleteObjects: 0.083400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -398,12 +604,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010347 seconds.
+Registered in 0.010572 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\a1801268\VRDD-Escape-Room\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\a1801268\VRDD-Escape-Room\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -420,43 +626,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.337 seconds
+- Completed reload, in  1.435 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1337ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1436ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1166ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1242ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (591ms)
+			SetupLoadedEditorAssemblies (604ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (464ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (469ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3223 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 165.9 MB.
-System memory in use after: 166.1 MB.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.7 MB.
+System memory in use after: 185.9 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3825.
-Total: 3.520300 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.145000 ms MarkObjects: 3.031600 ms  DeleteObjects: 0.030800 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3906.
+Total: 2.909400 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.149800 ms MarkObjects: 2.458900 ms  DeleteObjects: 0.021300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -468,3 +674,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 511.837552 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(7d82763e0cd89bf4d81f9a400ca51e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue.mat using Guid(7d82763e0cd89bf4d81f9a400ca51e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550f37288e8089db3767479033ff0b25') in 0.141307 seconds 
+  Import took 0.154561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Materials/Wine bottle.mat
+  artifactKey: Guid(dcf0b02a35eb8db45b43be76e6f3e165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wine bottle.mat using Guid(dcf0b02a35eb8db45b43be76e6f3e165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e420f9f7dee49f5920bf7345d370146') in 0.008213 seconds 
+  Import took 0.012823 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

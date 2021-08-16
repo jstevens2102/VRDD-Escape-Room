@@ -11,6 +11,11 @@ public class XRInputListener : MonoBehaviour
     private ActionBasedController leftTeleportRay, rightTeleportRay;
 
     [SerializeField]
+    private float teleportCooldown = 0.5f;
+
+    private bool teleportAvailable = true, leftTeleportActive = false, rightTeleportActive = false;
+
+    [SerializeField]
     private InputActionAsset actionAsset;
     private InputActionMap hmdMap, leftControllerMap, rightControllerMap;
 
@@ -46,42 +51,57 @@ public class XRInputListener : MonoBehaviour
     }
 
     // TELEPORTATION HANDLING
-    void HandleTeleportVisibility() {
-        if (leftTeleportRay) {
-            leftTeleportRay.gameObject.SetActive(IsTeleportActive(leftTeleport));
+    void HandleTeleportVisibility()
+    {
+        if (leftTeleportRay)
+        {
+            leftTeleportRay.gameObject.SetActive(IsTeleportActive(leftTeleport) && !rightTeleportActive && teleportAvailable);
+            leftTeleportActive = leftTeleportRay.gameObject.activeInHierarchy;
         }
-        if (rightTeleportRay) {
-            rightTeleportRay.gameObject.SetActive(IsTeleportActive(rightTeleport));
+        if (rightTeleportRay)
+        {
+            rightTeleportRay.gameObject.SetActive(IsTeleportActive(rightTeleport) && !leftTeleportActive && teleportAvailable);
+            rightTeleportActive = rightTeleportRay.gameObject.activeInHierarchy;
         }
     }
-    bool IsTeleportActive(InputAction teleportAction) {
+
+    bool IsTeleportActive(InputAction teleportAction)
+    {
         return (teleportAction.ReadValue<Vector2>() != Vector2.zero);
-	}
+    }
 
     // DEBUG
-    void InputDebugMessages() {
-        if (outputDebugMessages) {
-            if (leftSelect.triggered) {
+    void InputDebugMessages()
+    {
+        if (outputDebugMessages)
+        {
+            if (leftSelect.triggered)
+            {
                 Debug.Log("Left select activated");
             }
 
-            if (leftActivate.triggered) {
+            if (leftActivate.triggered)
+            {
                 Debug.Log("Left activate activated");
             }
 
-            if (rightSelect.triggered) {
+            if (rightSelect.triggered)
+            {
                 Debug.Log("Right select activated");
             }
 
-            if (rightActivate.triggered) {
+            if (rightActivate.triggered)
+            {
                 Debug.Log("Right activate activated");
             }
 
-            if (rightTeleport.ReadValue<Vector2>() != Vector2.zero) {
+            if (rightTeleport.ReadValue<Vector2>() != Vector2.zero)
+            {
                 Debug.Log("Right teleport triggered");
             }
 
-            if (leftTeleport.ReadValue<Vector2>() != Vector2.zero) {
+            if (leftTeleport.ReadValue<Vector2>() != Vector2.zero)
+            {
                 Debug.Log("Left teleport triggered");
             }
         };
@@ -90,5 +110,12 @@ public class XRInputListener : MonoBehaviour
     /*void TestFunction(InputAction.CallbackContext context) {
         Debug.Log("Action triggered: " + context);
 	}*/
+
+    IEnumerator TeleportCooldown()
+    {
+        teleportAvailable = false;
+        yield return new WaitForSeconds(teleportCooldown);
+        teleportAvailable = true;
+    }
 
 }
