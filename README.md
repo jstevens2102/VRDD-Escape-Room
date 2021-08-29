@@ -10,6 +10,9 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 29/08/2021
+- Added first version of drawer/cupboard + lever interactions created using Unity joints.
+
 ### 23/08/2021
 - Implemented filtered socket interactor for tag checking, added example socket interactor to starter scene
 - Created a tag called SocketablePuzzleObject
