@@ -10,6 +10,10 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 30/08/2021
+- Imported Barrel Stand, Wine Bottle and Wine Rack packages to main project.
+- Added v1 of button, slider and wheel interactable controls.
+
 ### 29/08/2021
 - Added first version of drawer/cupboard + lever interactions created using Unity joints.
 
