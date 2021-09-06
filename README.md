@@ -10,6 +10,12 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 06/09/2021
+- Experimented with physical hand colliders, causes some strange physics behaviours so have disabled it for now.
+- Added first version of keypad prefab.
+- Began working on script side of keypad interaction.
+- Adjusted hand collider positions to make grabbing feel a bit more intuitive.
+
 ### 30/08/2021
 - Imported Barrel Stand, Wine Bottle and Wine Rack packages to main project.
 - Added v1 of button, slider and wheel interactable controls.

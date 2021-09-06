@@ -14,8 +14,8 @@ TagManager:
   - UI
   - Teleport Surfaces
   - Grabbables
-  - 
-  - 
+  - PlayerHands
+  - InteractableControls
   - 
   - 
   - 
