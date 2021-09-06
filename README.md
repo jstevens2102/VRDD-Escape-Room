@@ -15,6 +15,7 @@ Read below for complete changelog history.
 - Added first version of keypad prefab.
 - Began working on script side of keypad interaction.
 - Adjusted hand collider positions to make grabbing feel a bit more intuitive.
+- Imported basement room model and created new scene for game level.
 
 ### 30/08/2021
 - Imported Barrel Stand, Wine Bottle and Wine Rack packages to main project.
