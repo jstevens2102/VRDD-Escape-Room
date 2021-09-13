@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.Events;
 
 public class KeypadController : MonoBehaviour
 {
@@ -11,9 +13,27 @@ public class KeypadController : MonoBehaviour
     [SerializeField]
     private Button[] buttonList;
 
-    private string currentCode = "0000"; // curret code displayed on screen
+    [SerializeField]
+    private TextMeshProUGUI codeDisplayText;
+
+    [SerializeField]
+    private bool debugEnabled;
+
     private bool keypadState = false; // current unlocked state of keypad
     private bool canInteract = true; // true = buttons can be pressed, false = input is ignored
+
+    public UnityEvent keypadUnlocked;
+
+    bool IsUnlocked() // is the keypad unlocked
+    {
+        return keypadState;
+    }
+
+    void ResetKeypad()
+    {
+        keypadState = false;
+        codeDisplayText.text = "";
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -40,19 +60,37 @@ public class KeypadController : MonoBehaviour
     // Adds a digit to the current keypad code
     void AddDigit(int c)
     {
-
+        if (codeDisplayText.text.Length < requiredCode.Length) codeDisplayText.text += c.ToString();
+        else
+        {
+            // play some kind of error sound
+        }
     }
 
     // Clears all digits from the keypad code
     void ClearCode()
     {
-
+        codeDisplayText.text = "";
     }
 
     // Checks if the code is valid and updates the keypad state if correct
     void CheckCode()
     {
+        if (codeDisplayText.text == requiredCode)
+        {
+            keypadState = true;
+            canInteract = false;
+            // play success sound
+            if (debugEnabled) Debug.Log("Keypad successfully unlocked!");
+            keypadUnlocked.Invoke();
+        }
+        else
+        {
+            ClearCode();
+            // play failure sound
+            if (debugEnabled) Debug.Log("Keypad failed to unlock!");
 
+        }
     }
 
     // Function called when a button is pressed on the UI
@@ -63,12 +101,24 @@ public class KeypadController : MonoBehaviour
     // 12 = ENT
     void KeypadButtonPressed(int buttonID)
     {
-        Debug.Log("Button with ID: " + buttonID + " was pressed");
-        switch (buttonID)
+        if (canInteract)
         {
-            case int n when (n > 0 && n <= 9):
-                AddDigit(buttonID);
-                break;
+            if (debugEnabled) Debug.Log("Button with ID: " + buttonID + " was pressed");
+            switch (buttonID)
+            {
+                case int n when (n > 0 && n <= 9):
+                    AddDigit(buttonID);
+                    break;
+                case 10:
+                    AddDigit(0);
+                    break;
+                case 11:
+                    ClearCode();
+                    break;
+                case 12:
+                    CheckCode();
+                    break;
+            }
         }
     }
 }

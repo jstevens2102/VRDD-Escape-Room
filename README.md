@@ -10,9 +10,21 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 13/09/2021
+- Updated basement room model.
+- Updated basement ceiling/door model.
+- Imported v1 of Wisely's furniture package.
+- Imported flashlight.
+- Imported cabinet.
+- Imported Nathan's lighting package.
+- Added second UI interactor to left hand so both hands can be used.
+- Finished script interaction of keypad.
+- Imported basement staircase.
+
 ### 06/09/2021
 - Experimented with physical hand colliders, causes some strange physics behaviours so have disabled it for now.
 - Added first version of keypad prefab.
+- Added UI interactor to right hand.
 - Began working on script side of keypad interaction.
 - Adjusted hand collider positions to make grabbing feel a bit more intuitive.
 - Imported basement room model and created new scene for game level.
