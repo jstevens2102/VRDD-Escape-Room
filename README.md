@@ -10,6 +10,11 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 19/09/2021
+- Updated Wiseley's furniture models.
+- Updated keypad prefab to fix weird offset.
+- Imported keypad model and modified keypad UI to fit model size and layout.
+
 ### 13/09/2021
 - Updated basement room model.
 - Updated basement ceiling/door model.
