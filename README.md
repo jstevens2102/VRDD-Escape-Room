@@ -12,6 +12,7 @@ Read below for complete changelog history.
 
 ### 11/10/2021
 - Added barrel label, barrel tap and storage box packages.
+- Updated project to Unity version 2021.1 to make use of URP 11.
 
 ### 19/09/2021
 - Updated Wiseley's furniture models.
