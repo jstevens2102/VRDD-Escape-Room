@@ -10,6 +10,9 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 11/10/2021
+- Added barrel label, barrel tap and storage box packages.
+
 ### 19/09/2021
 - Updated Wiseley's furniture models.
 - Updated keypad prefab to fix weird offset.
