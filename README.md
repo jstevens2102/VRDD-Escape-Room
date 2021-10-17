@@ -10,6 +10,11 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 17/10/2021
+- Imported Jiayun's cabinet, curtain and lamp.
+- Imported Georgia's LED panel.
+- Created first version of valve controller for heater puzzle.
+
 ### 11/10/2021
 - Added barrel label, barrel tap and storage box packages.
 - Updated project to Unity version 2021.1 to make use of URP 11.
