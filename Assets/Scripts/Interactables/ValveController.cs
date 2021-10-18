@@ -38,7 +38,7 @@ public class ValveController : MonoBehaviour
         if (debug)
         {
             if (lastFramePosition != currentPosition) Debug.Log("currentPosition: " + currentPosition);
-            bool correct = isInCorrectPosition();
+            bool correct = IsInCorrectPosition();
             if (correct != lastFrameCorrect) {
                 if (correct == true) Debug.Log("Cylinder entered correct position!");
                 else Debug.Log("Cylinder exited correct position!");
@@ -47,7 +47,7 @@ public class ValveController : MonoBehaviour
         }
     }
 
-    public bool isInCorrectPosition()
+    public bool IsInCorrectPosition()
     {
         if (Mathf.Abs(correctPosition - currentPosition) <= tolerance) return true;
         else return false;

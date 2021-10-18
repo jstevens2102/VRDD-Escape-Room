@@ -1904,6 +1904,9 @@ MonoBehaviour:
   - {fileID: 6388546792937984853}
   codeDisplayText: {fileID: 6388546793506154703}
   debugEnabled: 1
+  buttonSound: {fileID: 8300000, guid: 3d72e0ef60663c64fb29387288181aa5, type: 3}
+  incorrectSound: {fileID: 8300000, guid: 2350a8ec72aef4148828e773cfa72993, type: 3}
+  correctSound: {fileID: 8300000, guid: 843b3f38e50593c43821f12f1e865344, type: 3}
   keypadUnlocked:
     m_PersistentCalls:
       m_Calls: []

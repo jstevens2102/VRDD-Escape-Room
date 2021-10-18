@@ -10,6 +10,12 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 18/10/2021
+- Imported Georgia's wine bottle with label and torn label assets.
+- Imported Jiayun's bookcase and key.
+- Implemented heater puzzle controller and fixed up valve controller.
+- Added keypad sounds to keypad.
+
 ### 17/10/2021
 - Imported Jiayun's cabinet, curtain and lamp.
 - Imported Georgia's LED panel.
