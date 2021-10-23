@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class HeaterPuzzleController : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class HeaterPuzzleController : MonoBehaviour
 
     // internal variables
     private bool puzzleCompleted = false;
+
+    public UnityEvent PuzzleCompleted;
 
     // Update is called once per frame
     void Update()
@@ -46,6 +49,8 @@ public class HeaterPuzzleController : MonoBehaviour
             valve.gameObject.GetComponent<Rigidbody>().freezeRotation = true;
             valve.gameObject.GetComponent<XROffsetGrabInteractable>().enabled = false;
         }
+
+        PuzzleCompleted.Invoke();
     }
 
     public bool IsComplete()

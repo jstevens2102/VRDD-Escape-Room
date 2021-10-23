@@ -10,6 +10,11 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 23/10/2021
+- Added Unity Events to Heater Puzzle.
+- Implemented first version of key-lock puzzle.
+- Implemented first version of torn label puzzle.
+
 ### 18/10/2021
 - Imported Georgia's wine bottle with label and torn label assets.
 - Imported Jiayun's bookcase and key.
