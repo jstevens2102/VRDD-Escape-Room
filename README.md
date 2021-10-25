@@ -10,6 +10,13 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 25/10/2021
+- Added LED panel control script.
+- Added placeholder puzzles to main scene and set up LED panel.
+- Added mesh collider to basement model to avoid teleporting through scene.
+- Imported keyhole object.
+- Changed collision matrix to prevent teleport ray being stopped by grabbables.
+
 ### 23/10/2021
 - Added Unity Events to Heater Puzzle.
 - Implemented first version of key-lock puzzle.

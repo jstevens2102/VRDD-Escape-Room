@@ -17,13 +17,19 @@ public class LockController : MonoBehaviour
 
     // internal variables
     private bool unlockedState = false;
+    private XROffsetGrabInteractable keyGrabInteractable;
 
     public UnityEvent KeyInserted;
+
+    private void Start()
+    {
+        keyGrabInteractable = key.GetComponent<XROffsetGrabInteractable>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(keyPosition.transform.position, key.transform.position) <= completionDistance && !unlockedState)
+        if (Vector3.Distance(keyPosition.transform.position, key.transform.position) <= completionDistance && keyGrabInteractable.isSelected && !unlockedState)
         {
             unlockedState = true;
             KeyInserted.Invoke();
@@ -41,7 +47,7 @@ public class LockController : MonoBehaviour
     {
         key.transform.position = keyPosition.transform.position;
         key.transform.rotation = keyPosition.transform.rotation;
-        key.GetComponent<XROffsetGrabInteractable>().enabled = false;
+        keyGrabInteractable.enabled = false;
         key.GetComponent<Collider>().enabled = false;
         key.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
 	}

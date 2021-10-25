@@ -14,7 +14,7 @@ public class KeypadController : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI codeDisplayText;
     [SerializeField]
-    private bool debugEnabled;
+    private bool debug = false;
 
     [SerializeField]
     private AudioClip buttonSound, incorrectSound, correctSound;
@@ -44,7 +44,7 @@ public class KeypadController : MonoBehaviour
 
         if (buttonList.Length < 12)
         {
-            if (debugEnabled) Debug.LogError("Keypad script: Missing button references detected");
+            if (debug) Debug.LogError("Keypad script: Missing button references detected");
         }
 
         buttonList[0].onClick.AddListener(delegate { KeypadButtonPressed(1); });
@@ -84,7 +84,7 @@ public class KeypadController : MonoBehaviour
         {
             keypadState = true;
             canInteract = false;
-            if (debugEnabled) Debug.Log("Keypad successfully unlocked!");
+            if (debug) Debug.Log("Keypad successfully unlocked!");
             soundEmitter.PlayOneShot(correctSound);
             keypadUnlocked.Invoke();
         }
@@ -92,7 +92,7 @@ public class KeypadController : MonoBehaviour
         {
             ClearCode();
             soundEmitter.PlayOneShot(incorrectSound);
-            if (debugEnabled) Debug.Log("Keypad failed to unlock!");
+            if (debug) Debug.Log("Keypad failed to unlock!");
         }
     }
 
@@ -106,7 +106,7 @@ public class KeypadController : MonoBehaviour
     {
         if (canInteract)
         {
-            if (debugEnabled) Debug.Log("Button with ID: " + buttonID + " was pressed");
+            if (debug) Debug.Log("Button with ID: " + buttonID + " was pressed");
             soundEmitter.PlayOneShot(buttonSound);
             switch (buttonID)
             {
