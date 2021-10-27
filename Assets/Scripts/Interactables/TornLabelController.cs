@@ -17,13 +17,19 @@ public class TornLabelController : MonoBehaviour
 
     // internal variables
     bool labelAttached = false;
+    private XROffsetGrabInteractable tornLabelInteractable;
+
 
     public UnityEvent LabelAttached;
 
-    // Update is called once per frame
-    void Update()
+	private void Start() {
+        tornLabelInteractable = tornLabel.GetComponent<XROffsetGrabInteractable>();
+	}
+
+	// Update is called once per frame
+	void Update()
     {
-        if (Vector3.Distance(label.transform.position, tornLabel.transform.position) <= completionDistance && !labelAttached)
+        if (Vector3.Distance(label.transform.position, tornLabel.transform.position) <= completionDistance && !labelAttached && tornLabelInteractable.isSelected)
         {
             AttachLabel();
 		}

@@ -10,6 +10,10 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 27/10/2021
+- Imported Nathan's water heater model.
+- Started porting water heater puzzle to new model.
+
 ### 25/10/2021
 - Added LED panel control script.
 - Added placeholder puzzles to main scene and set up LED panel.
