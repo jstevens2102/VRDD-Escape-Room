@@ -10,6 +10,11 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 01/11/2021
+- Imported Zehang's basement decorations.
+- Imported Georgia's hammer/nails.
+- Imported Cynthia's draft noises.
+
 ### 27/10/2021
 - Imported Nathan's water heater model.
 - Started porting water heater puzzle to new model.
