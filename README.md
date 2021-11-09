@@ -10,6 +10,14 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 09/11/2021
+- Imported Georgia's built scene.
+- Adjusted lighting, added spotlight to flashlight.
+- Added LEDs to water heater puzzle.
+- Added colliders to most objects and made some small objects grabbable.
+- Added a particle emitter to heater puzzle for door explosion.
+- Adjusted lock key position.
+
 ### 01/11/2021
 - Imported Zehang's basement decorations.
 - Imported Georgia's hammer/nails.

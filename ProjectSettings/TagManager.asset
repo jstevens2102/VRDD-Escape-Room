@@ -16,7 +16,7 @@ TagManager:
   - Grabbables
   - PlayerHands
   - InteractableControls
-  - PuzzleBase
+  - NonInteractable
   - 
   - 
   - 

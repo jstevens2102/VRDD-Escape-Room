@@ -8,6 +8,10 @@ public class ValveController : MonoBehaviour
     [SerializeField]
     private GameObject displayCylinder;
     [SerializeField]
+    private GameObject displayLight;
+    [SerializeField]
+    private Material lightOnMaterial, lightOffMaterial;
+    [SerializeField]
     private Transform startPosition, endPosition;
     [SerializeField]
     private float correctPosition, tolerance;
@@ -16,14 +20,17 @@ public class ValveController : MonoBehaviour
 
     // internal variables
     private HingeJoint hinge;
+    private MeshRenderer lightRenderer;
     private float currentPosition;
     private float lastFramePosition = 0;
     private bool lastFrameCorrect = false;
+    private bool lightOn = false;
 
     // Start is called before the first frame update
     void Start()
     {
         hinge = GetComponent<HingeJoint>();
+        lightRenderer = displayLight.GetComponent<MeshRenderer>();
     }
 
     // Update is called once per frame
@@ -33,6 +40,19 @@ public class ValveController : MonoBehaviour
         currentPosition = Mathf.InverseLerp(hinge.limits.min, hinge.limits.max, hinge.angle);
         
         displayCylinder.transform.position = Vector3.Lerp(startPosition.position, endPosition.position, currentPosition);
+
+        if (IsInCorrectPosition() && !lightOn)
+        {
+            lightRenderer.material = lightOnMaterial;
+            lightOn = true;
+        }
+            
+        if ((!IsInCorrectPosition()) && lightOn)
+        {
+            lightRenderer.material = lightOffMaterial;
+            lightOn = false;
+        }
+            
 
         // only show currentPosition && correct state if it has updated since last frame
         if (debug)
