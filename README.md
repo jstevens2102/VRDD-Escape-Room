@@ -10,6 +10,18 @@ Steps to Install:
 ## Changelog
 Read below for complete changelog history.
 
+### 10/11/2021
+- Imported book puzzle assets.
+- Imported Cynthia's sounds.
+- Added sounds to scene interactions.
+- Added puzzle completion sounds.
+- Finished book puzzle.
+- Added more grabbable objects.
+- Added light switch controller which can disable/enable the lights.
+- Added explosion effect to heater puzzle.
+- Added ending scene with credits.
+- Added scene controller to control transition to ending scene.
+
 ### 09/11/2021
 - Imported Georgia's built scene.
 - Adjusted lighting, added spotlight to flashlight.
