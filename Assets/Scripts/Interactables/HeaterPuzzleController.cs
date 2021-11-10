@@ -9,6 +9,10 @@ public class HeaterPuzzleController : MonoBehaviour
     [SerializeField]
     private ValveController[] valves;
     [SerializeField]
+    private GameObject heaterDoor;
+    [SerializeField]
+    private ParticleSystem steamParticles;
+    [SerializeField]
     private bool debug = false;
 
     // internal variables
@@ -51,6 +55,12 @@ public class HeaterPuzzleController : MonoBehaviour
         }
 
         PuzzleCompleted.Invoke();
+
+        Rigidbody heaterRb = heaterDoor.GetComponent<Rigidbody>();
+        heaterRb.isKinematic = false;
+        heaterRb.AddForce(new Vector3(0, 0, 5), ForceMode.VelocityChange);
+        steamParticles.Play();
+        heaterDoor.GetComponent<AudioSource>().Play();
     }
 
     public bool IsComplete()

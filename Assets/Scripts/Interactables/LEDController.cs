@@ -13,6 +13,8 @@ public class LEDController : MonoBehaviour
     [SerializeField]
     private GameObject led1, led2, led3;
     [SerializeField]
+    private AudioClip puzzleCompletionSound;
+    [SerializeField]
     private bool debug = false;
 
     // internal variables
@@ -20,6 +22,7 @@ public class LEDController : MonoBehaviour
     private bool ledComplete = false;
 
     private MeshRenderer led1rend, led2rend, led3rend;
+    private AudioSource audioEmitter;
 
     public UnityEvent LEDPuzzleCompleted;
 
@@ -33,6 +36,8 @@ public class LEDController : MonoBehaviour
         led1rend.material = ledOffMaterial;
         led2rend.material = ledOffMaterial;
         led3rend.material = ledOffMaterial;
+
+        audioEmitter = GetComponent<AudioSource>();
     }
 
     void CheckCompletion()
@@ -54,6 +59,7 @@ public class LEDController : MonoBehaviour
     {
         led1rend.material = ledOnMaterial;
         led1state = true;
+        audioEmitter.PlayOneShot(puzzleCompletionSound);
 
         if (debug) Debug.Log("LED 1 completed!");
 
@@ -64,6 +70,7 @@ public class LEDController : MonoBehaviour
     {
         led2rend.material = ledOnMaterial;
         led2state = true;
+        audioEmitter.PlayOneShot(puzzleCompletionSound);
 
         if (debug) Debug.Log("LED 2 completed!");
 
@@ -74,6 +81,7 @@ public class LEDController : MonoBehaviour
     {
         led3rend.material = ledOnMaterial;
         led3state = true;
+        audioEmitter.PlayOneShot(puzzleCompletionSound);
 
         if (debug) Debug.Log("LED 3 completed!");
 

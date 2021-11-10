@@ -18,12 +18,14 @@ public class LockController : MonoBehaviour
     // internal variables
     private bool unlockedState = false;
     private XROffsetGrabInteractable keyGrabInteractable;
+    private AudioSource audioEmitter;
 
     public UnityEvent KeyInserted;
 
     private void Start()
     {
         keyGrabInteractable = key.GetComponent<XROffsetGrabInteractable>();
+        audioEmitter = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -50,6 +52,7 @@ public class LockController : MonoBehaviour
         keyGrabInteractable.enabled = false;
         key.GetComponent<Collider>().enabled = false;
         key.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+        audioEmitter.Play();
 	}
 
 
