@@ -1,8 +1,18 @@
 # VRDD-Escape-Room
-Virtual Reality Escape Room for VRDD II group project.
+Virtual Reality Escape Room for VRDD II group project in Semester 2 2021.
 
-Steps to Install:
-1. Install Unity 2020.3.15f2 (Latest LTS version)
+### Created by:  
+Cynthia Faulkner  
+Georgia Stephens  
+Jiayun Hu  
+Nathan Hartman  
+Wisely Lee  
+Xintong Ying  
+Zeheng Fan  
+Jack Stevens  
+
+### Installation:
+1. Install Unity 2021.1.25 or later
 2. Download the project by clicking the green 'Code' button up the top right and selecting 'Download ZIP'
 3. Unzip the folder and move it to your Unity projects folder (or wherever you prefer)
 4. Add the project to your project list using the 'Add' button in Unity Hub
